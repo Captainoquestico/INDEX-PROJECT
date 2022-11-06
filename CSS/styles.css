@@ -43,3 +43,19 @@ h4{
 .list-tick{
     list-style-image: url(/images/check-circle.de068b8d.svg);
 }
+
+/* Links */
+a{
+    text-decoration: none;
+}
+.link-arrow{
+    font-size: 1.4rem;
+    color: var(--color-heading);
+    border-top: 0;
+       
+}
+.link-arrow::after{
+    content: url(/images/right-arrow.e1bf0956.svg);
+    padding-left: 0.6rem;
+    vertical-align: middle;
+}
