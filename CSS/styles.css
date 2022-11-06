@@ -79,3 +79,38 @@ a{
     font-weight: 700;
     border-radius: 5px;
 }
+/* Cards */
+.cards{
+    padding-left: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+    max-width: 320px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border-bottom: 3rem;
+}
+.card-text{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 7rem;
+    margin-right: 2rem;
+
+}
+.card-header{
+    margin-bottom: 0;
+    margin-top: 6rem;
+}
+.card-1{
+    background-color: rgb(253, 245, 242);
+}
+.card-2{
+    background-color: rgb(242, 247, 251);
+}
+.card-3{
+    background-color: rgb(252, 249, 242);
+}
+
+p{
+   background-image: linear-gradient(274.41deg, rgb(217, 227, 239) 3.11%, rgb(250, 250, 250) 95.95%);
+      border-color: aqua;
+}
