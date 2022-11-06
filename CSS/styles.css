@@ -58,4 +58,24 @@ a{
     content: url(/images/right-arrow.e1bf0956.svg);
     padding-left: 0.6rem;
     vertical-align: middle;
+    transition: 0.15s;
+}
+.link-arrow:hover::after{
+    margin-left: 0.2rem;
+}
+/* Buttons */
+.btn{
+    color: var(--color-secondary);
+    background-color: rgb(232, 238, 244);
+    border: 0;
+    padding: 2rem 4.5rem;
+    border-radius: 7px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.btn-primary{
+    padding: 0.9rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
 }
