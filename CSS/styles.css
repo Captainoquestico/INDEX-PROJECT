@@ -28,7 +28,7 @@ h1{
     margin-bottom: 0;
 }
 h2{
-    font-size: 4.8rem;
+    font-size: 3.8rem;
 }
 h3{
     font-size: 2.4rem;
@@ -221,4 +221,22 @@ a{
     .center-text p{
         font-size: 2rem;
     }
+}
+/* Media Block */
+.media-block{
+    display: flex;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+}
+.media-block h2{
+   margin-bottom: 0;
+}
+.media-block-image{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .media-block-image{
+    display: initial;
+    width: 50%;
+    padding-right: 3rem;
 }
