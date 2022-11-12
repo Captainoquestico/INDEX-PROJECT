@@ -79,6 +79,16 @@ a{
     font-weight: 700;
     border-radius: 5px;
 }
+.btn1{
+    background-color: rgb(25, 135, 84);
+    color: #fff;
+    font-weight: 800;
+}
+.btn2{
+    background-color: rgb(255, 193, 7);
+    color: black;
+    font-weight: 800;
+}
 /* Cards */
 .cards{
     padding-left: 3rem;
@@ -110,7 +120,49 @@ a{
     background-color: rgb(252, 249, 242);
 }
 
+/* Navigation */
 p{
    background-image: linear-gradient(274.41deg, rgb(217, 227, 239) 3.11%, rgb(250, 250, 250) 95.95%);
       border-color: aqua;
+}
+.navigation{
+    background-image: linear-gradient(274.41deg, rgb(217, 227, 239) 3.11%, rgb(250, 250, 250) 95.95%);
+}
+
+.navigation-item{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 500px;
+    flex-wrap: nowrap;
+}
+.navigation .list-item{
+    display: none;
+    padding-right: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+    .fa-sharp 
+    ,.fa-solid 
+    ,.fa-bars{
+        display: ;
+    }
+    .toggler ,.fa-sharp, .fa-solid, .fa-bars{
+        display: none;
+    }
+    .navigation .list-item{
+        display: inline-block;
+    }
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .list-item{
+        display: flex;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
 }
