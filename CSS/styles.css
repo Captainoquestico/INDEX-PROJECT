@@ -25,6 +25,7 @@ h3,h4{
 }
 h1{
     font-size: 4.8rem;
+    margin-bottom: 0;
 }
 h2{
     font-size: 4.8rem;
@@ -37,6 +38,8 @@ h4{
 }
 p{
     font-size: 1.6rem;
+    margin-top: 1.8rem;
+
 }
 
 /* List */
@@ -192,5 +195,30 @@ a{
         max-width: 30rem;
         max-height: 50rem;
         padding-top: 3rem;
+    }
+}
+/* Center Block */
+.center-text{
+    width: ;
+    max-width: 30vw;
+    padding-left: 3.5rem;
+}
+.center-text h1{
+    color: black;
+}
+.center-grid--4x2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 8rem;
+    padding-top: 3.5rem;
+}
+@media screen and (min-width: 768px) {
+    .center-grid--4x2{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .center-text p{
+        font-size: 2rem;
     }
 }
