@@ -240,3 +240,43 @@ a{
     width: 50%;
     padding-right: 3rem;
 }
+}
+/* Article Block */
+.article__left-image{
+        display: none;
+}
+.article-text{
+        display: none;
+}
+    .article__right-image {
+     display: none;
+}
+
+    .article-block{
+        padding-left: 5rem;
+        padding-right: 5rem;
+}
+    .article-left, .article-right{
+    padding left: 3.5rem;
+}
+@media screen and (min-width: 768px) {
+    .article__left-image, .article__right-image, .article-text{
+        display: initial;
+}
+    .article-block{
+        display: flex;
+    }
+    .article__left-image{
+        width: 100%;
+    }
+    .article__right-image{
+        width: 50%;
+    }
+    .article-text{
+        display: block;
+    }
+    .article-right{
+        padding-left: 2rem;
+        padding-top: 4rem;
+    }
+        
