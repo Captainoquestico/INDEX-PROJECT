@@ -279,4 +279,31 @@ a{
         padding-left: 2rem;
         padding-top: 4rem;
     }
-        
+}
+    /* Card Block */
+    
+    .card__block-text-p{
+        margin-top: 1.3rem;
+        text-align: center;
+    }
+    .card__block-text-header{
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .card__block{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .card__block-card {
+        padding-top: 3.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;   
+    
+    }
+    .cards{
+        margin-bottom: 1.5rem;
+        border-radius: 1rem;
+    }
+
+
