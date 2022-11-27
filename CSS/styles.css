@@ -203,7 +203,6 @@ a{
 }
 /* Center Block */
 .center-text{
-    width: ;
     max-width: 30vw;
     padding-left: 3.5rem;
 }
@@ -264,7 +263,7 @@ a{
         padding-top: 4rem;
 }
     .article-left, .article-right{
-    padding left: 3.5rem;
+        padding-left: 3.5rem;
 }
 .article-text{
     padding-right: 5rem;
