@@ -375,6 +375,47 @@ a{
         }
     }
 
+    /* Prefooter */
+    .prefooter__header {
+        justify-content: center;
+        text-align: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 2rem;
+    }
+    .prefooter ul{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .prefooter p{
+        padding-left: 1rem;
+    }
+    li{
+        list-style: none;
+    }
+    .prefooter__buttons{
+        display: grid;
+        grid-template-columns: 22rem 22rem;
+        justify-content: center;
+        text-align: center;
+        gap: 3rem;        
+    }
+    .btn__prefooter{
+        background-color: rgb(48, 80, 127);
+        color: #fff;
+    }
+
+    @media screen and (min-width: 905px) {
+        .prefooter li{
+            display: flex;
+            justify-content: center;
+        }
+        .prefooter__buttons{
+            padding-top: 3rem;
+        }
+    }
 
 
 
