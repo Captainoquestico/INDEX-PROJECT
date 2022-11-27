@@ -417,5 +417,38 @@ a{
         }
     }
 
+    /* Footer */
+    .footer{
+        background:#212529 ;
+        color: #fff;
+    }
+    .footer a{
+        color: #fff;
+    }
+    .footer__list ul{
+        font-size: 1.5rem;
+        opacity: 0.6;
+    }
+    .footer__list-header{
+        color: #fff;
+        padding-left: 4rem;
+    }
 
-
+    .footer__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       
+    }
+    @media screen and (min-width: 768px) {
+        .footer__list{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 3rem;
+            padding-right: 5rem;
+        }
+    }
+    .footer__end{
+        text-align: center;
+        padding-bottom: 5rem;
+        padding-top: 3rem;
+    }
