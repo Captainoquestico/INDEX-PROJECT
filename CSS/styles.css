@@ -154,7 +154,12 @@ a{
     display: none;
     padding-right: 1.5rem;
 }
-
+.navigation-item img{
+    width: 50px;
+}
+.toggler{
+    color: black;
+}
 
 @media screen and (min-width: 768px) {
     .navigation .toggler{
